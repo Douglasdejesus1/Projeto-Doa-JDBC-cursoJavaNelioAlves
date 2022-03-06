@@ -18,6 +18,7 @@ public class Program {
 		Seller seller = sellerDao.findById(26);
 		System.out.println("Test1 find by Id");
 		System.out.println(seller);
+		
 		System.out.println("\nTest2 find by department");
 		sellerDao = DaoFactory.createSellerDao();
 		Department department = new Department(4, null);
